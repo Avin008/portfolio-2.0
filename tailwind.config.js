@@ -11,7 +11,7 @@ module.exports = {
         sans: ["var(--font-inter)"],
       },
       colors: {
-        background: "#242424",
+        background: "#1F2028",
       },
     },
   },
