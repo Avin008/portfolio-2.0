@@ -14,18 +14,18 @@ export const Navbar = (): React.ReactElement => {
         <span></span>
         <span className="text-xl">✨</span>
       </div>
-      <ul className="flex gap-8 items-center text-gray-400 text-2xl">
-        <li className="hover:text-gray-300 transition-all">
+      <ul className="flex gap-8 items-center text-gray-300 text-2xl">
+        <li className="hover:text-gray-50 transition-all">
           <a href={socialLinks.linkedIn}>
             <LinkedIn />
           </a>
         </li>
-        <li className="hover:text-gray-300 transition-all">
+        <li className="hover:text-gray-50 transition-all">
           <a href={socialLinks.twitter}>
             <Twitter />
           </a>
         </li>
-        <li className="hover:text-gray-300 transition-all">
+        <li className="hover:text-gray-50 transition-all">
           <a href={socialLinks.github}>
             <Github />
           </a>
