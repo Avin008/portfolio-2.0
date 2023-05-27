@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} font-sans bg-background`}
+        className={`${inter.variable} font-sans bg-background w-[60%] mx-auto`}
       >
         <Navbar />
         {children}

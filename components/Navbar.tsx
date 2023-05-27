@@ -9,12 +9,12 @@ const socialLinks = {
 
 export const Navbar = (): React.ReactElement => {
   return (
-    <nav className="border-b fixed left-0 right-0 border-gray-700 shadow-sm h-14 flex justify-between px-8 items-center">
+    <nav className="fixed w-[60%] z-50 mx-auto left-0 right-0 h-14 flex justify-between items-center">
       <div className="">
         <span></span>
         <span className="text-xl">✨</span>
       </div>
-      <ul className="flex gap-8 items-center text-gray-300 text-2xl">
+      <ul className="flex gap-8 bg-background bg-opacity-60 items-center border shadow-md border-gray-700 py-2 px-4 rounded-full text-gray-300 text-lg">
         <li className="hover:text-gray-50 transition-all">
           <a href={socialLinks.linkedIn}>
             <LinkedIn />
