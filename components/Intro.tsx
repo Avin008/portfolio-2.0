@@ -11,7 +11,13 @@ export const Intro = (): React.ReactElement => {
               I'M AVINASH
             </span>
           </span>
-          <span className="">A FULL-STACK DEVELOPER</span>
+          <span className="">
+            A{" "}
+            <span className="text-gray-300 font-medium">
+              FULL-STACK
+            </span>{" "}
+            DEVELOPER
+          </span>
         </h1>
       </div>
       <div className="relative">
