@@ -8,7 +8,7 @@ export const Intro = (): React.ReactElement => {
           <span>
             HELLO THERE,{" "}
             <span className="font-medium text-gray-300">
-              I'M AVINASH
+              I&apos;M AVINASH
             </span>
           </span>
           <span className="">
