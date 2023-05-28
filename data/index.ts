@@ -28,7 +28,8 @@ const projectsData: ProjectsDataType[] = [
       { id: crypto.randomUUID(), name: "TypeScript" },
       { id: crypto.randomUUID(), name: "Tailwind.css" },
     ],
-    githubLink: "",
+    githubLink:
+      "https://github.com/Avin008/roc8-moonshot-snake-assignment",
     liveLink: "",
   },
   {
