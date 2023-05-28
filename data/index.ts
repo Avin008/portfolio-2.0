@@ -5,8 +5,7 @@ const projectsData: ProjectsDataType[] = [
     id: crypto.randomUUID(),
     name: "Picco - Social Media",
     img: "",
-    description:
-      "lorem ipsum thai ra mixo dat paru na asu da marki go rasu apli",
+    description: "",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
@@ -21,8 +20,7 @@ const projectsData: ProjectsDataType[] = [
     id: crypto.randomUUID(),
     name: "Snakes - Retro Game",
     img: "",
-    description:
-      "Nokia Style Snake game, a timeless favorite for gamers of all ages.",
+    description: "",
     techStack: [
       { id: crypto.randomUUID(), name: "React.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
@@ -36,8 +34,7 @@ const projectsData: ProjectsDataType[] = [
     id: crypto.randomUUID(),
     name: "Miaka - Ecommerce",
     img: "",
-    description:
-      "An Ecommerce app where you can buy Clothing Items.",
+    description: "",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
@@ -52,8 +49,7 @@ const projectsData: ProjectsDataType[] = [
     id: crypto.randomUUID(),
     name: "Learno - Video Library",
     img: "",
-    description:
-      "A Video library app like youtube, where you can watch videos related to various topic.",
+    description: "",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
@@ -68,8 +64,7 @@ const projectsData: ProjectsDataType[] = [
     id: crypto.randomUUID(),
     name: "Quizo - Quiz",
     img: "",
-    description:
-      "lorem ipsum thai ra mixo dat paru na asu da marki go rasu apli",
+    description: "",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
@@ -85,8 +80,7 @@ const projectsData: ProjectsDataType[] = [
     id: crypto.randomUUID(),
     name: "Tribble - Instagram clone",
     img: "",
-    description:
-      "lorem ipsum thai ra mixo dat paru na asu da marki go rasu apli",
+    description: "",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },

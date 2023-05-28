@@ -17,7 +17,7 @@ export const ProjectCard = ({
           fill
         /> */}
         </div>
-        <div className="text-gray-300 p-2 py-4 min-h-[260px] flex flex-col gap-5">
+        <div className="text-gray-300 px-3 py-4 min-h-[180px] flex flex-col gap-3">
           <h2 className="font-medium">
             {projectData.name}
           </h2>
@@ -28,7 +28,7 @@ export const ProjectCard = ({
             {projectData.techStack.map((x) => (
               <li
                 key={x.id}
-                className="text-xs py-1 px-3 rounded-md text-gray-400 border border-gray-400 w-fit"
+                className="text-xs px-3 py-1 rounded-md text-gray-400 border border-gray-400 w-fit"
               >
                 {x.name}
               </li>
