@@ -6,7 +6,7 @@ const projectsData: ProjectsDataType[] = [
     name: "Picco - Social Media",
     img: "",
     description:
-      "this is a social media app to share memories",
+      "lorem ipsum thai ra mixo dat paru na asu da marki go rasu apli",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
@@ -22,7 +22,7 @@ const projectsData: ProjectsDataType[] = [
     name: "Snakes - Retro Game",
     img: "",
     description:
-      "this is a social media app to share memories",
+      "lorem ipsum thai ra mixo dat paru na asu da marki go rasu apli",
     techStack: [
       { id: crypto.randomUUID(), name: "React.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
@@ -36,7 +36,7 @@ const projectsData: ProjectsDataType[] = [
     name: "Miaka - Ecommerce",
     img: "",
     description:
-      "this is a social media app to share memories",
+      "lorem ipsum thai ra mixo dat paru na asu da marki go rasu apli",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
@@ -52,7 +52,7 @@ const projectsData: ProjectsDataType[] = [
     name: "Learno - Video Library",
     img: "",
     description:
-      "this is a social media app to share memories",
+      "lorem ipsum thai ra mixo dat paru na asu da marki go rasu apli",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
@@ -68,7 +68,7 @@ const projectsData: ProjectsDataType[] = [
     name: "Quizo - Quiz",
     img: "",
     description:
-      "this is a social media app to share memories",
+      "lorem ipsum thai ra mixo dat paru na asu da marki go rasu apli",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
@@ -85,7 +85,7 @@ const projectsData: ProjectsDataType[] = [
     name: "Tribble - Instagram clone",
     img: "",
     description:
-      "this is a social media app to share memories",
+      "lorem ipsum thai ra mixo dat paru na asu da marki go rasu apli",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },

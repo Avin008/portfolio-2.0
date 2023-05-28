@@ -9,23 +9,23 @@ export const ProjectCard = ({
   return (
     <div className="border border-gray-600 hover:shadow-[#13141b] hover:shadow-md hover:cursor-pointer transition-all h-fit shadow-md rounded-md">
       <div className="h-40 rounded-t-md relative bg-transparent">
-        <Image
+        {/* <Image
           className="aspect-video rounded-t-md object-cover"
           src={projectData.img}
           alt=""
           fill
-        />
+        /> */}
       </div>
-      <div className="text-gray-300 p-2 py-4 min-h-[215px] flex flex-col gap-3">
+      <div className="text-gray-300 p-2 py-4 min-h-[245px] flex flex-col gap-3">
         <h2 className="font-medium">{projectData.name}</h2>
-        <p className="text-sm text-gray-400">
+        <p className="text-base text-gray-400">
           {projectData.description}
         </p>
         <ul className="flex gap-2 flex-wrap items-center">
           {projectData.techStack.map((x) => (
             <li
               key={x.id}
-              className="text-xs py-1 px-4 rounded-md text-gray-300 border border-gray-400 w-fit"
+              className="text-xs py-1 px-3 rounded-md text-gray-400 border border-gray-400 w-fit"
             >
               {x.name}
             </li>
