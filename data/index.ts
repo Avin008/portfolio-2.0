@@ -93,4 +93,18 @@ const projectsData: ProjectsDataType[] = [
   },
 ];
 
-export { projectsData };
+const techSkills: { id: string; name: string }[] = [
+  { id: crypto.randomUUID(), name: "Next.js" },
+  { id: crypto.randomUUID(), name: "TypeScript" },
+  { id: crypto.randomUUID(), name: "Tailwind.css" },
+  { id: crypto.randomUUID(), name: "React Query" },
+  { id: crypto.randomUUID(), name: "Zustand" },
+  { id: crypto.randomUUID(), name: "Redux Toolkit" },
+  { id: crypto.randomUUID(), name: "Node" },
+  { id: crypto.randomUUID(), name: "Express" },
+  { id: crypto.randomUUID(), name: "Mongo-db" },
+  { id: crypto.randomUUID(), name: "Firebase" },
+  { id: crypto.randomUUID(), name: "Supabase" },
+];
+
+export { projectsData, techSkills };
