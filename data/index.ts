@@ -3,25 +3,29 @@ import { ProjectsDataType } from "../types";
 const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
-    name: "Picco - Social Media App",
+    name: "Picco - Social Media",
     img: "",
     description:
-      "lorem thar mor ma axu da par arau mora dat xioax",
+      "this is a social media app to share memories",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
+      { id: crypto.randomUUID(), name: "Tailwind.css" },
+      { id: crypto.randomUUID(), name: "React Query" },
+      { id: crypto.randomUUID(), name: "full-stack" },
     ],
     githubLink: "",
     liveLink: "",
   },
   {
     id: crypto.randomUUID(),
-    name: "Snakes - A Snake Game",
+    name: "Snakes - Retro Game",
     img: "",
     description:
-      "lorem thar mor ma axu da par arau mora dat xioax",
+      "this is a social media app to share memories",
     techStack: [
       { id: crypto.randomUUID(), name: "React.js" },
+      { id: crypto.randomUUID(), name: "TypeScript" },
       { id: crypto.randomUUID(), name: "Tailwind.css" },
     ],
     githubLink: "",
@@ -29,26 +33,65 @@ const projectsData: ProjectsDataType[] = [
   },
   {
     id: crypto.randomUUID(),
-    name: "Miaka - Ecommerce App",
+    name: "Miaka - Ecommerce",
     img: "",
     description:
-      "lorem thar mor ma axu da par arau mora dat xioax",
+      "this is a social media app to share memories",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
+      { id: crypto.randomUUID(), name: "Tailwind.css" },
+      { id: crypto.randomUUID(), name: "Firebase" },
+      { id: crypto.randomUUID(), name: "React Query" },
     ],
     githubLink: "",
     liveLink: "",
   },
   {
     id: crypto.randomUUID(),
-    name: "Learno - A Video Library App",
+    name: "Learno - Video Library",
     img: "",
     description:
-      "lorem thar mor ma axu da par arau mora dat xioax",
+      "this is a social media app to share memories",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
+      { id: crypto.randomUUID(), name: "Tailwind.css" },
+      { id: crypto.randomUUID(), name: "Firebase" },
+      { id: crypto.randomUUID(), name: "React Query" },
+    ],
+    githubLink: "",
+    liveLink: "",
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Quizo - Quiz",
+    img: "",
+    description:
+      "this is a social media app to share memories",
+    techStack: [
+      { id: crypto.randomUUID(), name: "Next.js" },
+      { id: crypto.randomUUID(), name: "TypeScript" },
+      { id: crypto.randomUUID(), name: "Tailwind.css" },
+      { id: crypto.randomUUID(), name: "Firebase" },
+      { id: crypto.randomUUID(), name: "Redux Toolkit" },
+      { id: crypto.randomUUID(), name: "React Query" },
+    ],
+    githubLink: "",
+    liveLink: "",
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Tribble - Instagram clone",
+    img: "",
+    description:
+      "this is a social media app to share memories",
+    techStack: [
+      { id: crypto.randomUUID(), name: "Next.js" },
+      { id: crypto.randomUUID(), name: "TypeScript" },
+      { id: crypto.randomUUID(), name: "Tailwind.css" },
+      { id: crypto.randomUUID(), name: "Firebase" },
+      { id: crypto.randomUUID(), name: "React Query" },
     ],
     githubLink: "",
     liveLink: "",
