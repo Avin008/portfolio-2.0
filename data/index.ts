@@ -22,7 +22,7 @@ const projectsData: ProjectsDataType[] = [
     name: "Snakes - Retro Game",
     img: "",
     description:
-      "lorem ipsum thai ra mixo dat paru na asu da marki go rasu apli",
+      "Nokia Style Snake game, a timeless favorite for gamers of all ages.",
     techStack: [
       { id: crypto.randomUUID(), name: "React.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
@@ -37,7 +37,7 @@ const projectsData: ProjectsDataType[] = [
     name: "Miaka - Ecommerce",
     img: "",
     description:
-      "lorem ipsum thai ra mixo dat paru na asu da marki go rasu apli",
+      "An Ecommerce app where you can buy Clothing Items.",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
@@ -53,7 +53,7 @@ const projectsData: ProjectsDataType[] = [
     name: "Learno - Video Library",
     img: "",
     description:
-      "lorem ipsum thai ra mixo dat paru na asu da marki go rasu apli",
+      "A Video library app like youtube, where you can watch videos related to various topic.",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },

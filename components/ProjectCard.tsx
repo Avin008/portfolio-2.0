@@ -17,7 +17,7 @@ export const ProjectCard = ({
           fill
         /> */}
         </div>
-        <div className="text-gray-300 p-2 py-4 min-h-[245px] flex flex-col gap-3">
+        <div className="text-gray-300 p-2 py-4 min-h-[260px] flex flex-col gap-5">
           <h2 className="font-medium">
             {projectData.name}
           </h2>
