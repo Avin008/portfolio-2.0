@@ -10,18 +10,18 @@ export const ProjectCard = ({
     <a href={projectData.githubLink} target="_blank">
       <div className="border border-gray-600 hover:shadow-[#13141b] hover:shadow-md hover:cursor-pointer transition-all h-fit shadow-md rounded-md">
         <div className="h-40 rounded-t-md relative bg-transparent">
-          {/* <Image
-          className="aspect-video rounded-t-md object-cover"
-          src={projectData.img}
-          alt=""
-          fill
-        /> */}
+          <Image
+            className="aspect-video filter brightness-75 rounded-t-md object-fill"
+            src={projectData.img}
+            alt=""
+            fill
+          />
         </div>
-        <div className="text-gray-300 px-3 py-4 min-h-[180px] flex flex-col gap-3">
+        <div className="text-gray-300 px-3 py-4 min-h-[245px] flex flex-col gap-3">
           <h2 className="font-medium">
             {projectData.name}
           </h2>
-          <p className="text-base text-gray-400">
+          <p className="font-light text-gray-300">
             {projectData.description}
           </p>
           <ul className="flex gap-2 flex-wrap items-center">

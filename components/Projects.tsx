@@ -8,8 +8,11 @@ export const Projects = (): React.ReactElement => {
         PROJECTS
       </h1>
       <div className="h-full mt-3 grid grid-cols-2 gap-3">
-        {projectsData?.map((x) => (
-          <ProjectCard projectData={x} />
+        {projectsData?.map((project) => (
+          <ProjectCard
+            key={project.id}
+            projectData={project}
+          />
         ))}
       </div>
     </div>

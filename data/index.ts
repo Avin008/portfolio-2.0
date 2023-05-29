@@ -3,38 +3,10 @@ import { ProjectsDataType } from "../types";
 const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
-    name: "Picco - Social Media",
-    img: "",
-    description: "",
-    techStack: [
-      { id: crypto.randomUUID(), name: "Next.js" },
-      { id: crypto.randomUUID(), name: "TypeScript" },
-      { id: crypto.randomUUID(), name: "Tailwind.css" },
-      { id: crypto.randomUUID(), name: "React Query" },
-      { id: crypto.randomUUID(), name: "full-stack" },
-    ],
-    githubLink: "",
-    liveLink: "",
-  },
-  {
-    id: crypto.randomUUID(),
-    name: "Snakes - Retro Game",
-    img: "",
-    description: "",
-    techStack: [
-      { id: crypto.randomUUID(), name: "React.js" },
-      { id: crypto.randomUUID(), name: "TypeScript" },
-      { id: crypto.randomUUID(), name: "Tailwind.css" },
-    ],
-    githubLink:
-      "https://github.com/Avin008/roc8-moonshot-snake-assignment",
-    liveLink: "",
-  },
-  {
-    id: crypto.randomUUID(),
-    name: "Miaka - Ecommerce",
-    img: "",
-    description: "",
+    name: "Miaka - Ecommerce App",
+    img: "https://avinashmahananda.vercel.app/_next/image?url=%2Fecommerce.png&w=1920&q=75",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec eros accumsan turpis.",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
@@ -47,9 +19,10 @@ const projectsData: ProjectsDataType[] = [
   },
   {
     id: crypto.randomUUID(),
-    name: "Learno - Video Library",
-    img: "",
-    description: "",
+    name: "Learno - Video Library App",
+    img: "https://avinashmahananda.vercel.app/_next/image?url=%2Fvideo-library.png&w=1920&q=75",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec eros accumsan turpis",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
@@ -62,15 +35,15 @@ const projectsData: ProjectsDataType[] = [
   },
   {
     id: crypto.randomUUID(),
-    name: "Quizo - Quiz",
-    img: "",
-    description: "",
+    name: "Snakes - Game",
+    img: "https://avinashmahananda.vercel.app/_next/image?url=%2Fsnakes.png&w=1920&q=75",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec eros accumsan turpis",
     techStack: [
-      { id: crypto.randomUUID(), name: "Next.js" },
+      { id: crypto.randomUUID(), name: "React" },
       { id: crypto.randomUUID(), name: "TypeScript" },
       { id: crypto.randomUUID(), name: "Tailwind.css" },
       { id: crypto.randomUUID(), name: "Firebase" },
-      { id: crypto.randomUUID(), name: "Redux Toolkit" },
       { id: crypto.randomUUID(), name: "React Query" },
     ],
     githubLink: "",
@@ -78,9 +51,42 @@ const projectsData: ProjectsDataType[] = [
   },
   {
     id: crypto.randomUUID(),
-    name: "Tribble - Instagram clone",
-    img: "",
-    description: "",
+    name: "Quizo - Quiz App",
+    img: "https://avinashmahananda.vercel.app/_next/image?url=%2Fquiz.png&w=1920&q=75",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec eros accumsan turpis",
+    techStack: [
+      { id: crypto.randomUUID(), name: "React" },
+      { id: crypto.randomUUID(), name: "TypeScript" },
+      { id: crypto.randomUUID(), name: "Css" },
+      { id: crypto.randomUUID(), name: "Firebase" },
+      { id: crypto.randomUUID(), name: "React Query" },
+    ],
+    githubLink: "",
+    liveLink: "",
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Tribble - Social Media App",
+    img: "https://avinashmahananda.vercel.app/_next/image?url=%2Ftribble.png&w=1920&q=75",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec eros accumsan turpis",
+    techStack: [
+      { id: crypto.randomUUID(), name: "Next.js" },
+      { id: crypto.randomUUID(), name: "TypeScript" },
+      { id: crypto.randomUUID(), name: "Tailwind.css" },
+      { id: crypto.randomUUID(), name: "Firebase" },
+      { id: crypto.randomUUID(), name: "React Query" },
+    ],
+    githubLink: "",
+    liveLink: "",
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Notation - Notes App",
+    img: "https://avinashmahananda.vercel.app/_next/image?url=%2Fnotes.png&w=1920&q=75",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec eros accumsan turpis",
     techStack: [
       { id: crypto.randomUUID(), name: "Next.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
