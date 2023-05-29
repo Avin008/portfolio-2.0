@@ -1,3 +1,5 @@
+"use client";
+import { useState } from "react";
 import { ProjectsDataType } from "../types";
 import Image from "next/image";
 
@@ -6,14 +8,26 @@ export const ProjectCard = ({
 }: {
   projectData: ProjectsDataType;
 }): React.ReactElement => {
+  const [animate, setAnimate] = useState<boolean>(false);
+
+  const toggleAnimate = (value: boolean) => {
+    setAnimate(value);
+  };
+
   return (
     <a href={projectData.githubLink} target="_blank">
-      <div className="border border-gray-600 hover:shadow-[#13141b] hover:shadow-md hover:cursor-pointer transition-all h-fit shadow-md rounded-md">
+      <div
+        onMouseEnter={() => toggleAnimate(true)}
+        onMouseLeave={() => toggleAnimate(false)}
+        className="border border-gray-600 hover:shadow-[#13141b] hover:shadow-md hover:cursor-pointer transition-all h-fit shadow-md rounded-md"
+      >
         <div className="h-40 rounded-t-md relative bg-transparent">
           <Image
             loading="lazy"
-            className="aspect-video rounded-t-md object-fill"
-            src={projectData.img}
+            className="aspect-video transition-all rounded-t-md object-fill"
+            src={
+              animate ? projectData.gif : projectData.img
+            }
             alt=""
             fill
           />
