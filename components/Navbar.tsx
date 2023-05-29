@@ -16,17 +16,17 @@ export const Navbar = (): React.ReactElement => {
       </div>
       <ul className="flex gap-8 bg-background bg-opacity-60 items-center border shadow-md border-gray-700 py-2 px-4 rounded-full text-gray-300 text-lg">
         <li className="hover:text-gray-50 transition-all">
-          <a href={socialLinks.linkedIn}>
+          <a target="_blank" href={socialLinks.linkedIn}>
             <LinkedIn />
           </a>
         </li>
         <li className="hover:text-gray-50 transition-all">
-          <a href={socialLinks.twitter}>
+          <a target="_blank" href={socialLinks.twitter}>
             <Twitter />
           </a>
         </li>
         <li className="hover:text-gray-50 transition-all">
-          <a href={socialLinks.github}>
+          <a target="_blank" href={socialLinks.github}>
             <Github />
           </a>
         </li>
