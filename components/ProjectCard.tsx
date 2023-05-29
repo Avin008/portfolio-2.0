@@ -11,6 +11,7 @@ export const ProjectCard = ({
       <div className="border border-gray-600 hover:shadow-[#13141b] hover:shadow-md hover:cursor-pointer transition-all h-fit shadow-md rounded-md">
         <div className="h-40 rounded-t-md relative bg-transparent">
           <Image
+            loading="lazy"
             className="aspect-video rounded-t-md object-fill"
             src={projectData.img}
             alt=""
