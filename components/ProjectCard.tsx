@@ -26,7 +26,7 @@ export const ProjectCard = ({
             loading="lazy"
             className="aspect-video transition-all rounded-t-md object-fill"
             src={
-              animate ? projectData.img : projectData.img
+              animate ? projectData.gif : projectData.img
             }
             alt=""
             fill
