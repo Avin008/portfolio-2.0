@@ -4,8 +4,8 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Miaka - Ecommerce App",
-    img: "https://avinashmahananda.vercel.app/_next/image?url=%2Fecommerce.png&w=1920&q=75",
-    gif: "",
+    img: "/projects/ecommerce-img.png",
+    gif: "/projects/ecommerce-gif.gif",
     description:
       "Elevate Your Style, Discover the Best in Men's Fashion.",
     techStack: [
@@ -23,8 +23,8 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Snakes - Game",
-    img: "https://avinashmahananda.vercel.app/_next/image?url=%2Fsnakes.png&w=1920&q=75",
-    gif: "",
+    img: "/projects/snake-img.png",
+    gif: "/projects/snake-gif.gif",
     description:
       "Slither and Eat, Experience the old Snake Game!",
     techStack: [
@@ -39,8 +39,8 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Learno - Video Library App",
-    img: "https://avinashmahananda.vercel.app/_next/image?url=%2Fvideo-library.png&w=1920&q=75",
-    gif: "",
+    img: "/projects/video-img.png",
+    gif: "/projects/video-gif.gif",
     description:
       "Your Go-To Video Library for Inspiration and Skills!",
     techStack: [
@@ -58,8 +58,8 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Quizo - Quiz App",
-    img: "https://avinashmahananda.vercel.app/_next/image?url=%2Fquiz.png&w=1920&q=75",
-    gif: "",
+    img: "/projects/quiz-img.png",
+    gif: "/projects/quiz-gif.gif",
     description:
       "Anime, Movies, Coding - A Simple Quiz App!",
     techStack: [
@@ -77,7 +77,7 @@ const projectsData: ProjectsDataType[] = [
     id: crypto.randomUUID(),
     name: "Tribble - Social Media App",
     img: "https://avinashmahananda.vercel.app/_next/image?url=%2Ftribble.png&w=1920&q=75",
-    gif: "",
+    gif: "/projects/social-media-gif.gif",
     description:
       "Connect. Share. Discover. a social media app",
     techStack: [
@@ -95,8 +95,8 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Notation - Notes App",
-    img: "https://avinashmahananda.vercel.app/_next/image?url=%2Fnotes.png&w=1920&q=75",
-    gif: "",
+    img: "/projects/notes-img.png",
+    gif: "/projects/notes-gif.gif",
     description:
       "Notes made simple. Easy and efficient note-taking app",
     techStack: [
