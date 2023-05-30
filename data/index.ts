@@ -4,7 +4,7 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Miaka - Ecommerce App",
-    img: "/projects/ecommerce.png",
+    img: "/projects/ecommerce.webp",
     gif: "",
     description:
       "Elevate Your Style, Discover the Best in Men's Fashion.",
@@ -23,7 +23,7 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Snakes - Game",
-    img: "/projects/game.png",
+    img: "/projects/snake-game.webp",
     gif: "",
     description:
       "Slither and Eat, Experience the old Snake Game!",
@@ -39,7 +39,7 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Learno - Video Library App",
-    img: "/projects/video-library.png",
+    img: "/projects/video-library.webp",
     gif: "",
     description:
       "Your Go-To Video Library for Inspiration and Skills!",
@@ -58,7 +58,7 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Quizo - Quiz App",
-    img: "/projects/quiz.png",
+    img: "/projects/quiz.webp",
     gif: "",
     description:
       "Anime, Movies, Coding - A Simple Quiz App!",
@@ -75,7 +75,7 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Tribble - Social Media App",
-    img: "/projects/social-media.png",
+    img: "/projects/social-media.webp",
     gif: "",
     description:
       "Connect. Share. Discover. a social media app",
@@ -94,7 +94,7 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Notation - Notes App",
-    img: "/projects/notes.png",
+    img: "/projects/notes.webp",
     gif: "",
     description:
       "Notes made simple. Easy and efficient note-taking app",
