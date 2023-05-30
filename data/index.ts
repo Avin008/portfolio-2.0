@@ -4,8 +4,8 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Miaka - Ecommerce App",
-    img: "/projects/ecommerce-img.png",
-    gif: "/projects/ecommerce-gif.gif",
+    img: "/projects/ecommerce.png",
+    gif: "",
     description:
       "Elevate Your Style, Discover the Best in Men's Fashion.",
     techStack: [
@@ -23,8 +23,8 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Snakes - Game",
-    img: "/projects/snake-img.png",
-    gif: "/projects/snake-gif.gif",
+    img: "/projects/game.png",
+    gif: "",
     description:
       "Slither and Eat, Experience the old Snake Game!",
     techStack: [
@@ -39,8 +39,8 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Learno - Video Library App",
-    img: "/projects/video-img.png",
-    gif: "/projects/video-gif.gif",
+    img: "/projects/video-library.png",
+    gif: "",
     description:
       "Your Go-To Video Library for Inspiration and Skills!",
     techStack: [
@@ -58,13 +58,12 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Quizo - Quiz App",
-    img: "/projects/quiz-img.png",
-    gif: "/projects/quiz-gif.gif",
+    img: "/projects/quiz.png",
+    gif: "",
     description:
       "Anime, Movies, Coding - A Simple Quiz App!",
     techStack: [
       { id: crypto.randomUUID(), name: "React" },
-      { id: crypto.randomUUID(), name: "TypeScript" },
       { id: crypto.randomUUID(), name: "Css" },
       { id: crypto.randomUUID(), name: "Redux Toolkit" },
       { id: crypto.randomUUID(), name: "Firebase" },
@@ -76,8 +75,8 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Tribble - Social Media App",
-    img: "https://avinashmahananda.vercel.app/_next/image?url=%2Ftribble.png&w=1920&q=75",
-    gif: "/projects/social-media-gif.gif",
+    img: "/projects/social-media.png",
+    gif: "",
     description:
       "Connect. Share. Discover. a social media app",
     techStack: [
@@ -95,8 +94,8 @@ const projectsData: ProjectsDataType[] = [
   {
     id: crypto.randomUUID(),
     name: "Notation - Notes App",
-    img: "/projects/notes-img.png",
-    gif: "/projects/notes-gif.gif",
+    img: "/projects/notes.png",
+    gif: "",
     description:
       "Notes made simple. Easy and efficient note-taking app",
     techStack: [

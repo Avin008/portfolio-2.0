@@ -21,12 +21,12 @@ export const ProjectCard = ({
         onMouseLeave={() => toggleAnimate(false)}
         className="border border-gray-600 hover:shadow-[#13141b] hover:shadow-md hover:cursor-pointer transition-all h-fit shadow-md rounded-md"
       >
-        <div className="h-40 rounded-t-md relative bg-transparent">
+        <div className="bg-transparent h-36 rounded-t-md relative">
           <Image
             loading="lazy"
             className="aspect-video transition-all rounded-t-md object-fill"
             src={
-              animate ? projectData.gif : projectData.img
+              animate ? projectData.img : projectData.img
             }
             alt=""
             fill
