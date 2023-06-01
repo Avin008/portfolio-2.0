@@ -22,6 +22,25 @@ const projectsData: ProjectsDataType[] = [
   },
   {
     id: crypto.randomUUID(),
+    name: "Picco - Social Media App",
+    img: "/projects/social-media-picco.png",
+    gif: "",
+    description:
+      "Tweet, Connect, Discover. A twitter like social media app",
+    techStack: [
+      { id: crypto.randomUUID(), name: "Next.js" },
+      { id: crypto.randomUUID(), name: "TypeScript" },
+      { id: crypto.randomUUID(), name: "Tailwind.css" },
+      { id: crypto.randomUUID(), name: "Zustand" },
+      { id: crypto.randomUUID(), name: "React Query" },
+      { id: crypto.randomUUID(), name: "Full-Stack" },
+    ],
+    githubLink:
+      "https://github.com/Avin008/social-media-app",
+    liveLink: "",
+  },
+  {
+    id: crypto.randomUUID(),
     name: "Snakes - Game",
     img: "/projects/snake-game.webp",
     gif: "/projects/snake-game.gif",
