@@ -99,7 +99,7 @@ const projectsData: ProjectsDataType[] = [
     description:
       "Connect. Share. Discover. a social media app",
     techStack: [
-      { id: crypto.randomUUID(), name: "Next.js" },
+      { id: crypto.randomUUID(), name: "React.js" },
       { id: crypto.randomUUID(), name: "TypeScript" },
       { id: crypto.randomUUID(), name: "Tailwind.css" },
       { id: crypto.randomUUID(), name: "Redux Toolkit" },
@@ -127,6 +127,36 @@ const projectsData: ProjectsDataType[] = [
     ],
     githubLink:
       "https://github.com/Avin008/notation-notes-app",
+    liveLink: "",
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Webpack Starter",
+    img: "/projects/webpack.webp",
+    gif: "/projects/notes.gif",
+    description:
+      "A simple webpack starter project for basic modern web development needs.",
+    techStack: [
+      { id: crypto.randomUUID(), name: "Webpack" },
+      { id: crypto.randomUUID(), name: "Node.js" },
+    ],
+    githubLink:
+      "https://github.com/Avin008/webpack-starter",
+    liveLink: "",
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Webpack Starter",
+    img: "/projects/component-library.webp",
+    gif: "/projects/notes.gif",
+    description:
+      "This is my Component Library, you can use the components of this library to make sites quickly.",
+    techStack: [
+      { id: crypto.randomUUID(), name: "Html" },
+      { id: crypto.randomUUID(), name: "Css" },
+    ],
+    githubLink:
+      "https://github.com/Avin008/saiyan-ui",
     liveLink: "",
   },
 ];
