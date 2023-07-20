@@ -146,11 +146,11 @@ const projectsData: ProjectsDataType[] = [
   },
   {
     id: crypto.randomUUID(),
-    name: "Webpack Starter",
+    name: "Component Library",
     img: "/projects/component-library.webp",
     gif: "/projects/notes.gif",
     description:
-      "This is my Component Library, you can use the components of this library to make sites quickly.",
+      "You can use the components of this library to make sites quickly.",
     techStack: [
       { id: crypto.randomUUID(), name: "Html" },
       { id: crypto.randomUUID(), name: "Css" },
